@@ -29,10 +29,10 @@ requirements:
     - make  # [not win]
   host:
     - ncurses  # [not win]
-    - readline  # [not win]
+    - libedit  # [not win]
   run:
     - ncurses  # [not win]
-    - readline  # [not win]
+    - libedit  # [not win]
 
 test:
   commands:

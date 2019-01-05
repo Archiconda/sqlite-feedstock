@@ -29,8 +29,8 @@ fi
             --host=${HOST} \
             --enable-threadsafe \
             --enable-shared=yes \
-            --enable-readline \
-            --disable-editline \
+            --disable-readline \
+            --enable-editline \
             --disable-tcl \
             CFLAGS="${CFLAGS} -I${PREFIX}/include" \
             LDFLAGS="${LDFLAGS} -L${PREFIX}/lib" \
